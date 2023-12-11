@@ -34,7 +34,7 @@ year_list = [i for i in range(1980, 2024, 1)]
 app.layout = html.Div([
     #TASK 2.1 Add title to the dashboard
     html.H1("Automobile Sales Statistics Dashboard", 
-    style={'textAlign': 'left', 'color': '#503D36','font-size': 24}), #May include style for title
+    style={'textAlign': 'left', 'color': '#503D36','font-size': 24}),#May include style for title
     html.Div([#TASK 2.2: Add two dropdown menus
         html.Label("Select Statistics:"),
         dcc.Dropdown(
@@ -51,6 +51,7 @@ app.layout = html.Div([
             placeholder = 'Select Year',
             value=1980
         )),
+    
     html.Div([#TASK 2.3: Add a division for output display
     html.Div(id='output_container', className='chart-grid', style={'display':'flex'})])
 ])
