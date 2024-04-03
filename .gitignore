@@ -20,3 +20,5 @@ module8_final/.DS_Store
 Captsone/Week 2/m1_survey_data.csv
 .vscode
 .ipynb_checkpoints
+*.png
+*.csv
