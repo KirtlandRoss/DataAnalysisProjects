@@ -22,3 +22,7 @@ Captsone/Week 2/m1_survey_data.csv
 .ipynb_checkpoints
 *.png
 *.csv
+*.html
+*.sqlite
+questions
+answers
